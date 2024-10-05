@@ -1,0 +1,137 @@
+*{
+    box-sizing : border-b
+}
+body{
+    font-family : Roboto, Arial;
+    width : 80vw;
+    margin : 0 auto;
+    padding : 0;
+    height : 100vh;
+    
+}
+img{
+    width : 300px;
+}
+header, footer{
+    background-color: #1F2937;
+}
+header{
+    padding-bottom : 80px;
+}
+.navbar{
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding : 16px
+}
+.logo {
+    width : 600px;
+}
+ul{
+    display : flex;
+    list-style-type: none;
+    gap : 16px;
+    padding-left : 40px;
+}
+a{
+    text-decoration: none;
+    color : #F9FAF8;
+    font-size: 18px;
+}
+.navbar img{
+    width : 100px;
+    border-radius: 60px;
+    flex-shrink: 0;
+
+}
+.navbar p{
+    margin : 0;
+    padding : 0;
+    font-size : 12px;
+    color : #F9FAF8;
+    padding-left : 16px;
+}
+.sub-nav-container{
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow : hidden;
+    padding : 0 16px;
+}
+
+.info{
+    max-width : 600px;
+    text-align : left;
+}
+.topic{
+    font-size : 48px;
+    text-align : center;
+    font-weight: 900;
+    color : #F9FAF8;
+    margin-bottom : 0;
+    text-align : left;
+    line-height: 50px;
+}
+.secondary{
+    color : #E5E7EB;
+    margin : 0;
+    font-size: 18px;
+    padding : 8px 0;
+
+}
+button, .more > div{
+    background-color  : #3882F6;
+    color : #F9FAF8;
+    border : none;
+}
+.left-side img{
+    box-shadow: 0 0 10px rgba(239, 223, 73, 0.6);
+    border-radius : 8px;
+}
+.info > button{
+    font-size : 18px;
+    padding : 8px 24px;
+    border-radius: 10px;
+    cursor : pointer;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    color : #1F2937;
+    font-weight: 900;
+}
+.images{
+    display : flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    gap : 20px
+
+}
+.images-info{
+    width : 300px;
+}
+.images-info > img{
+    height : 250px;
+    object-fit: cover;
+    margin-bottom : 0;
+    box-shadow: 0 0 12px rgba(6, 6, 6, 0.6);
+    border-radius: 10px;
+}
+.images-info > p{
+    text-align : center;
+    margin : 0;
+}
+.quote{
+    background-color: #E5E7EB;
+}
+.food-p{
+    font-size : 36px;
+    font-style : italic;
+    text-align : center;
+    font-weight : 0px;
+}
+.quote > div{
+    width : 600px;
+    margin : 0 auto;
+    color : #1F2937;
+}
