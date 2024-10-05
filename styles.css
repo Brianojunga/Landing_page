@@ -57,6 +57,7 @@ a{
     align-items: center;
     overflow : hidden;
     padding : 0 16px;
+    flex-wrap: wrap;
 }
 
 .info{
@@ -123,15 +124,77 @@ h2{
 }
 .quote{
     background-color: #E5E7EB;
+    padding : 48px 0;
+    margin-top : 48px;
+    margin-bottom : 0;
+    display : flex;
 }
 .food-p{
     font-size : 36px;
     font-style : italic;
     text-align : center;
     font-weight : 0px;
+    margin-bottom: 0;
+    font-weight : 300;
 }
 .quote > div{
     width : 600px;
     margin : 0 auto;
     color : #1F2937;
+}
+.name{
+   color :  #1F2937;
+   text-align: right;
+   margin-top: 8px;
+   padding : 8px;
+   font-weight: 900;
+   font-size : 18px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top : 48px;
+    border-radius: 8px;
+    
+}
+.more > div{
+    padding : 20px 80px;
+
+}
+
+.action{
+    border-top-left-radius : 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.hero-p{
+    font-weight : 900;
+    margin-bottom : 0;
+}
+.unhero-p{
+    margin-top: 8px;
+}
+.button{
+    display : flex;
+    align-items : center;
+    border-radius: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.button > button{
+    border : 2px solid #E5E7EB;
+    flex-shrink: 0;
+    padding : 6px 20px;
+    border-radius: 10px;
+    cursor : pointer;
+}
+footer{
+    margin-top : 48px;
+}
+footer > div{
+    padding : 24px;
+    display : flex;
+    justify-content: center;
+    color : #E5E7EB;
+
 }
